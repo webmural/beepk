@@ -1,0 +1,58 @@
+html {
+  font-family: sans-serif;
+  font-size: calc(1em + 3vw);
+}
+
+body {
+  padding: 1em;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  min-height: 100vh;
+}
+
+article {
+  line-height: 1.6;
+}
+
+header p {
+  float: right;
+}
+
+header h1 {
+  clear: both;
+}
+
+menu {
+  list-style: circle;
+}
+
+li:first-child {
+  list-style: thai;
+}
+
+li:focus-within {
+  list-style: disc;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  font-size: inherit;
+}
+
+:any-link {
+  text-decoration-style: dotted;
+  text-decoration-thickness: .1em;
+}
+
+:any-link:hover {
+  text-decoration-style: solid;
+}
+
+:focus {
+  outline-width: thick;
+  outline-style: dotted;
+}

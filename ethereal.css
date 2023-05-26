@@ -1,0 +1,20 @@
+::selection {
+  background: #200222;
+  color: coral;
+}
+
+:root {
+  color: #200222;
+  background-color: mistyrose;
+  background-image: linear-gradient(orangered, deeppink, hotpink, salmon, coral, orchid, mediumorchid);
+}
+
+:any-link {
+  color: #108;
+  outline-color: #108;
+}
+
+mark {
+  color: #11111d;
+  background: coral;
+}
